@@ -1,5 +1,7 @@
 # Sitecore.Support.103362
-Fallback item versions are dumped incorrectly on serialization or package building. As a result, further package installation or reverting of such an item creates real versions for all the fallback languages. This patch fixes the BuildPackage control and serialization commands (itemsync:dumpitem and itemsync:dumptree).
+Fallback item versions are dumped incorrectly on package building or serialization. As a result, further package installation or reverting of such an item creates real versions for all the fallback languages.
+
+This patch fixes the BuildPackage control and serialization commands (itemsync:dumpitem and itemsync:dumptree).
 
 The bug is fixed in Sitecore 8.2 Update-1.
 
