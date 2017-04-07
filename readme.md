@@ -1,5 +1,5 @@
 # Sitecore.Support.103362
-Package installation creates item versions for all fallback languages
+Fallback item versions are dumped incorrectly on serialization or package building. As a result, further package installation or reverting of such an item creates real versions for all the fallback languages. This package fixes the BuildPackage control and serialization commands (itemsync:dumpitem and itemsync:dumptree).
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.103362/blob/master/LICENSE).  
