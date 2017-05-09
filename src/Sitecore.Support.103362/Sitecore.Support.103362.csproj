@@ -56,15 +56,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sitecore\Support\Shell\Applications\Install\Dialogs\BuildPackage.cs" />
-    <Compile Include="Sitecore\Support\Shell\Applications\Install\Dialogs\InstallPackage\InstallPackageForm.cs" />
+    <Compile Include="Sitecore\Jobs\JobRunner.cs" />
     <Compile Include="Sitecore\Support\Shell\Framework\Commands\Serialization\DumpItemCommand.cs" />
     <Compile Include="Sitecore\Support\Shell\Framework\Commands\Serialization\DumpTreeCommand.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.103362.config" />
-    <Content Include="Sitecore\shell\Override\BuildPackage.xml" />
-    <Content Include="Sitecore\shell\Override\Install Package.xml" />
+    <Content Include="App_Config\Include\zzz\Sitecore.Support.103362.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
